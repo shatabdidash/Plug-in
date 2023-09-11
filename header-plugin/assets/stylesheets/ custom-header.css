@@ -1,0 +1,33 @@
+/* plugins/custom-header/assets/stylesheets/custom-header.css */
+
+/* Hide the main header */
+.d-header {
+    display: none;
+  }
+  
+  #custom-header {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  #header-left img {
+    max-width: 150px; /* Increase the max-width to make the logo bigger */
+    height: auto;
+  }
+  
+  #header-center {
+    text-align: center;
+    flex-grow: 1; /* Allows the center content to expand and fill the available space */
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
+    font-size: 14px; /* Adjust font size as needed */
+  }
+  
+  /* Add the rest of your CSS styles here */
+  
+  /* ... */
+  
+  
